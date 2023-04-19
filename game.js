@@ -37,7 +37,7 @@ function startg(){
 			greenb(p);
 			document.getElementById($(this).attr("id")).style.background="red";
 			c+=1;
-			if(c>=5 && w==0){
+			if(c>=15 && w==0){
 				let et = new Date();
 				g = ((et-st)/1000);
 				document.getElementById("timer").innerHTML=g;
@@ -67,7 +67,7 @@ function startg(){
 				document.getElementById($(this).attr("id")).style.background="green";
 			}, 10);
 			c+=1;
-			if(c>=5 && w==0){
+			if(c>=15 && w==0){
 				let et = new Date();
 				g = ((et-st)/1000);
 				document.getElementById("timer").innerHTML=g;
