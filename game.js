@@ -61,10 +61,10 @@ function startg(){
 			while(p==x){
 				p = "green"+Math.floor((Math.random()*6)+1);
 			}
-			document.getElementById($(this).attr("id")).style.background="red";
-			setTimeout(function() {
-				document.getElementById($(this).attr("id")).style.background="green";
-			}, 2);
+// 			document.getElementById($(this).attr("id")).style.background="red";
+// 			setTimeout(function() {
+// 				document.getElementById($(this).attr("id")).style.background="green";
+// 			}, 2);
 			setTimeout(function() {
 				greenb(p);
 			}, 200);
