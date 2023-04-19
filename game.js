@@ -61,11 +61,10 @@ function startg(){
 			while(p==x){
 				p = "green"+Math.floor((Math.random()*6)+1);
 			}
-			greenb(p);
-			document.getElementById($(this).attr("id")).style.background="red";
 			setTimeout(function() {
 				document.getElementById($(this).attr("id")).style.background="green";
 			}, 2);
+			greenb(p);
 			c+=1;
 			if(c>=15 && w==0){
 				let et = new Date();
