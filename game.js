@@ -55,6 +55,9 @@ function startg(){
 
 
 	$(".circle").on("tap",function(){
+		setTimeout(function() {
+			document.getElementById(p).style.background="green";
+		}, 10);
 		x=$(this).attr("id");
 		if(x==p){
 			p = "green"+Math.floor((Math.random()*6)+1);
