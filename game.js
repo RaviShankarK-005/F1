@@ -65,7 +65,7 @@ function startg(){
 			document.getElementById($(this).attr("id")).style.background="red";
 			setTimeout(function() {
 				document.getElementById($(this).attr("id")).style.background="green";
-			}, 50);
+			}, 10);
 			c+=1;
 			if(c>=5 && w==0){
 				let et = new Date();
