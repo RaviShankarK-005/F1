@@ -67,7 +67,7 @@ function startg(){
 			}, 2);
 			setTimeout(function() {
 				greenb(p);
-			}, 2);
+			}, 200);
 			c+=1;
 			if(c>=15 && w==0){
 				let et = new Date();
